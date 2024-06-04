@@ -1,0 +1,20 @@
+ros-humble-r2r-spl-8 (2.1.0-1bullseye) bullseye; urgency=high
+
+  * Ensure tests don't communicate with each other, by changing team number, and hence udp port number
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 13 Apr 2024 16:00:00 -0000
+
+ros-humble-r2r-spl-8 (2.0.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 08 Aug 2022 16:00:00 -0000
+
+ros-humble-r2r-spl-8 (2.0.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 17 Jun 2022 16:00:00 -0000
+
+

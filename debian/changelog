@@ -1,0 +1,20 @@
+ros-humble-r2r-spl (2.1.0-2bookworm) bookworm; urgency=high
+
+  Add r2r_spl package, capable of listening to different msg types (#47 <https://github.com/ros-sports/r2r_spl/issues/47>)
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 13 Apr 2024 16:00:00 -0000
+
+ros-humble-r2r-spl (2.0.1-2bookworm) bookworm; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 08 Aug 2022 16:00:00 -0000
+
+ros-humble-r2r-spl (2.0.0-2bookworm) bookworm; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 17 Jun 2022 16:00:00 -0000
+
+

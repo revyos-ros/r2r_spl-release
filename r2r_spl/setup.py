@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
-package_name = 'splsm_7_conversion'
+package_name = 'r2r_spl'
 
 setup(
     name=package_name,
     version='2.1.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='ijnek',
     maintainer_email='kenjibrameld@gmail.com',
-    description=('Converts Standard Platform League Standard Message V7 between ROS msg'
-                 'and UDP raw bytes'),
+    description='Robot-to-Robot Communication in RoboCup Standard Platform League',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'r2r_spl = r2r_spl.r2r_spl:main',
         ],
     },
 )

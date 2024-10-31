@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'splsm_7_conversion'
+package_name = 'r2r_spl_8'
 
 setup(
     name=package_name,
@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='ijnek',
     maintainer_email='kenjibrameld@gmail.com',
-    description=('Converts Standard Platform League Standard Message V7 between ROS msg'
-                 'and UDP raw bytes'),
+    description='Robot-To-Robot communication in RoboCup SPL',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'r2r_spl = r2r_spl_8.r2r_spl:main',
         ],
     },
 )

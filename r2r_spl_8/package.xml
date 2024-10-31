@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>r2r_spl_7</name>
+  <name>r2r_spl_8</name>
   <version>2.1.0</version>
-  <description>Robot-To-Robot communication in RoboCup SPL using SPLSM V7</description>
+  <description>Robot-To-Robot communication in RoboCup SPL</description>
   <maintainer email="kenjibrameld@gmail.com">ijnek</maintainer>
   <license>Apache License 2.0</license>
 
   <exec_depend>rclpy</exec_depend>
-  <exec_depend>splsm_7_conversion</exec_depend>
+  <exec_depend>splsm_8_conversion</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

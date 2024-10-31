@@ -1,3 +1,34 @@
+## r2r_spl (humble) - 2.1.0-2
+
+The packages in the `r2r_spl` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble r2r_spl --override-release-repository-push-url git@github.com:revyos-ros/r2r_spl-release.git` on `Thu, 31 Oct 2024 05:22:35 -0000`
+
+These packages were released:
+- `r2r_spl`
+- `r2r_spl_7`
+- `r2r_spl_8`
+- `r2r_spl_test_interfaces`
+- `splsm_7`
+- `splsm_7_conversion`
+- `splsm_8`
+- `splsm_8_conversion`
+
+Version of package(s) in repository `r2r_spl`:
+
+- upstream repository: https://github.com/ros-sports/r2r_spl.git
+- release repository: https://github.com/revyos-ros/r2r_spl-release.git
+- rosdistro version: `2.1.0-1`
+- old version: `2.1.0-1`
+- new version: `2.1.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## r2r_spl (iron) - 3.1.0-1
 
 The packages in the `r2r_spl` repository were released into the `iron` distro by running `/usr/bin/bloom-release r2r_spl --rosdistro iron -e` on `Sun, 14 Apr 2024 01:33:03 -0000`

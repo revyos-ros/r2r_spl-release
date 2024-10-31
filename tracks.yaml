@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/r2r_spl-release.git
 tracks:
   foxy:
     actions:
